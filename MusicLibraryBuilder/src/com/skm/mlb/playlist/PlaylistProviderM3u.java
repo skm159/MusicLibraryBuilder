@@ -9,7 +9,7 @@ import java.util.List;
  * @author intel
  *
  */
-public class PlaylistProviderMlp implements PlayListProvider{
+public class PlaylistProviderM3u implements PlayListProvider{
 
 	@Override
 	public List<Song> availableSongs() {

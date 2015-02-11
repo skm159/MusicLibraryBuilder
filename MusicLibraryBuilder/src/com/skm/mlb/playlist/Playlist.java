@@ -3,7 +3,7 @@
  */
 package com.skm.mlb.playlist;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author intel
@@ -12,12 +12,8 @@ import java.util.ArrayList;
 public class Playlist {
 
 	private String name;
-	private ArrayList<String> songList;
-	
-	
-	
-	
-	
+	private List<Song> songList;
+
 	/**
 	 * @return the name
 	 */
@@ -25,42 +21,28 @@ public class Playlist {
 		return name;
 	}
 
-
-
-
-
 	/**
-	 * @param name the name to set
+	 * @param name
+	 *            the name to set
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 
-
-
-
-
 	/**
 	 * @return the songList
 	 */
-	public ArrayList<String> getSongList() {
+	public List<Song> getSongList() {
 		return songList;
 	}
 
-
-
-
-
 	/**
-	 * @param songList the songList to set
+	 * @param songList
+	 *            the songList to set
 	 */
-	public void setSongList(ArrayList<String> songList) {
+	public void setSongList(List<Song> songList) {
 		this.songList = songList;
 	}
-
-
-
-
 
 	/**
 	 * 

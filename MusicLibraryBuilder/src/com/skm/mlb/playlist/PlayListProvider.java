@@ -3,17 +3,16 @@
  */
 package com.skm.mlb.playlist;
 
+import java.util.List;
+
 /**
  * @author intel
  *
  */
-public class PlayListProvider {
+public interface PlayListProvider {
 
-	/**
-	 * 
-	 */
-	public PlayListProvider() {
-		// TODO Auto-generated constructor stub
-	}
-
+	public List<Song> availableSongs();
+	
+	public List<Song> unAvailableSongs();
+	
 }
